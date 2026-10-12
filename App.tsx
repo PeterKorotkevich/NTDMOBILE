@@ -9,6 +9,7 @@ import { SafeAreaProvider } from 'react-native-safe-area-context';
 import RootStack from './src/navigation/RootStack';
 
 function App() {
+  // color theme 
   const isDarkMode = useColorScheme() === 'dark';
 
   return (
